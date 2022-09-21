@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.header {
+  font-family: "Quicksand";
+  font-size: 50px;
+  color: rgb(10, 203, 203);
+
+}
+
+
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  position: fixed;
+  top: 130px;
+  grid-gap: 10px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.button {
+  height: 100px; 
+  width: 100px; 
+  position :absolute;
+  background-color: rgb(6, 177, 177);
+  border: none;
+}
+
+.button:hover {
+  background-color:rgb(3, 194, 194);
+
+  
+}
